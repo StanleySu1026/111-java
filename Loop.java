@@ -6,8 +6,7 @@ public class Loop{
         int grade = 0; 
 		String space = " ";
 		while(grade <= 9){
-			System.out.printf("%d %n", grade);
-			System.out.printf(space);
+			System.out.printf("%d\n%S", grade , space);			
 			grade++;
 			space = space + " ";
 			
